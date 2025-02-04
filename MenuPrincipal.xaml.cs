@@ -24,6 +24,7 @@ namespace ProyectodeTituloFinal
 
         private string[] phrases = {
             "Transformando la detección del cáncer de colon con IA",
+            "La IA que ve lo que el ojo humano podría pasar por alto.",
             "Precisión, velocidad y confianza en cada diagnóstico",
             "Tu salud en manos de la mejor tecnología",
             "Tecnología que salva vidas, un pólipo a la vez"
