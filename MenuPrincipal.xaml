@@ -5,8 +5,21 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectodeTituloFinal"
         mc:Ignorable="d"
-        Title="MenuPrincipal" Height="624" Width="1430">
+        Title="MenuPrincipal" Height="710" Width="1238">
     <Grid>
+        <Grid Margin="225,138,225,150">
+            <Label Content="Evelyn AI" HorizontalAlignment="Center" Margin="0,59,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.211,-1" FontFamily="Bahnschrift SemiBold Condensed" FontSize="36"/>
+            <Button Content="Ejecutar Analisis" HorizontalAlignment="Center" VerticalAlignment="Center" Height="32" Width="344"/>
+            <TextBlock x:Name="PhraseText"
+                   Text="Transformando la detección del cáncer de colon con IA"
+                   FontSize="18" FontWeight="Bold"
+                   HorizontalAlignment="Center" VerticalAlignment="Top"
+                   Opacity="1" Margin="0,117,0,0">
+                <TextBlock.RenderTransform>
+                    <TranslateTransform x:Name="TextTransform" X="0" />
+                </TextBlock.RenderTransform>
+            </TextBlock>
+        </Grid>
 
     </Grid>
 </Window>

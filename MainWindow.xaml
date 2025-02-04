@@ -13,7 +13,7 @@
             <TextBox HorizontalAlignment="Center" Margin="0,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" TextChanged="TextBox_TextChanged" Foreground="#FF888888" Height="24" ToolTip="Usuarioeee" Tag="asdas" AutomationProperties.ItemStatus="Messias"/>
             <TextBox HorizontalAlignment="Center" Margin="0,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" Foreground="#FF8E8B8B" Height="24"/>
             <Label Content="Ingrese sus credenciales para acceder al sistema" HorizontalAlignment="Center" Margin="0,138,0,0" VerticalAlignment="Top" Foreground="#FF928989"/>
-            <Button x:Name="btnLogin" Content="Iniciar Sesión" HorizontalAlignment="Center" Margin="0,309,0,0" VerticalAlignment="Top" Background="Black" Foreground="White" Width="263" Height="28"/>
+            <Button x:Name="btnLogin" Content="Iniciar Sesión" HorizontalAlignment="Center" Margin="0,309,0,0" VerticalAlignment="Top" Background="Black" Foreground="White" Width="263" Height="28" Click="btnLogin_Click"/>
             <Label Content="¿Olvidó su contraseña?" HorizontalAlignment="Center" Margin="0,366,0,0" VerticalAlignment="Top" Foreground="#FF969696" Width="134"/>
         </Grid>
 

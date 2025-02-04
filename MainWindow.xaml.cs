@@ -37,5 +37,18 @@ namespace ProyectodeTituloFinal
             VideoPlayer.Position = TimeSpan.Zero; // Reinicia el video al inicio
             VideoPlayer.Play(); // Vuelve a reproducirlo
         }
+
+        private void IniciarSesion()
+        {
+            // Código para iniciar sesión
+            MenuPrincipal menuPrincipal = new MenuPrincipal();
+            menuPrincipal.Show();
+            this.Close();
+        }
+
+        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+            IniciarSesion();
+        }
     }
 }
