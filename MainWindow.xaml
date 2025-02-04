@@ -1,0 +1,21 @@
+﻿<Window x:Class="ProyectodeTituloFinal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProyectodeTituloFinal"
+        mc:Ignorable="d"
+        Title="Evelyn" Height="541" Width="1029" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <MediaElement x:Name="VideoPlayer"  HorizontalAlignment="Left" LoadedBehavior="Manual" MediaEnded="VideoPlayer_MediaEnded"  Source="g:\desarollo web\proyectodetitulofinal\ia video.mp4 "  Height="540" VerticalAlignment="Center" Width="1055" Margin="-206,0,0,0"/>
+        <Grid Margin="528,0,3,0" Background="White">
+            <Label Content="Iniciar Sesión" HorizontalAlignment="Center" Margin="0,107,0,0" VerticalAlignment="Top" FontFamily="Bahnschrift SemiBold Condensed" FontSize="24" FontWeight="Bold"/>
+            <TextBox HorizontalAlignment="Center" Margin="0,187,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="218" TextChanged="TextBox_TextChanged" Foreground="#FF888888" Height="24" ToolTip="Usuarioeee" Tag="asdas" AutomationProperties.ItemStatus="Messias"/>
+            <TextBox HorizontalAlignment="Center" Margin="0,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="219" Foreground="#FF8E8B8B" Height="24"/>
+            <Label Content="Ingrese sus credenciales para acceder al sistema" HorizontalAlignment="Center" Margin="0,138,0,0" VerticalAlignment="Top" Foreground="#FF928989"/>
+            <Button x:Name="btnLogin" Content="Iniciar Sesión" HorizontalAlignment="Center" Margin="0,309,0,0" VerticalAlignment="Top" Background="Black" Foreground="White" Width="263" Height="28"/>
+            <Label Content="¿Olvidó su contraseña?" HorizontalAlignment="Center" Margin="0,366,0,0" VerticalAlignment="Top" Foreground="#FF969696" Width="134"/>
+        </Grid>
+
+    </Grid>
+</Window>
